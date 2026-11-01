@@ -1,0 +1,104 @@
+{
+  "image": "ledger_015.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "normal",
+    "seed": 42015
+  },
+  "rows": [
+    {
+      "date": "2026-10-08",
+      "customer": "Padma",
+      "description": "Salt 1L",
+      "amount": 930,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "రాము",
+      "description": "నూనె 1 కిలో + పాలు 1 కిలో",
+      "amount": 1130,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "सुनीता देवी",
+      "description": "चीनी 2 किलो",
+      "amount": 1190,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "Suresh Babu",
+      "description": "Dal 1L, Soap 2kg",
+      "amount": 960,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "Gopal",
+      "description": "Salt 5kg",
+      "amount": 630,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "रमेश कुमार",
+      "description": "साबुन 250 ग्राम",
+      "amount": 30,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "కృష్ణ",
+      "description": "పప్పు 2 కిలో",
+      "amount": 670,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-13",
+      "customer": "Meena",
+      "description": "Atta 1L",
+      "amount": 460,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-14",
+      "customer": "गोपाल जी",
+      "description": "चाय 2 किलो, तेल 1 लीटर",
+      "amount": 220,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-14",
+      "customer": "Anitha",
+      "description": "Oil 1L, Sugar 1kg",
+      "amount": 630,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "Sunita Sharma",
+      "description": "Atta 1kg",
+      "amount": 990,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-16",
+      "customer": "गोपाल जी",
+      "description": "दूध 5 किलो",
+      "amount": 160,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-18",
+      "customer": "Sunita Sharma",
+      "description": "Milk 1L, Sugar 1kg",
+      "amount": 710,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

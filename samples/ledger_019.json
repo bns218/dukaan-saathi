@@ -1,0 +1,118 @@
+{
+  "image": "ledger_019.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "en",
+    "difficulty": "normal",
+    "seed": 42019
+  },
+  "rows": [
+    {
+      "date": "2026-10-07",
+      "customer": "Mohammed Irfan",
+      "description": "Soap 1kg, Tea 250g",
+      "amount": 1340,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "Suresh Babu",
+      "description": "Rice 250g",
+      "amount": 220,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "Gopal",
+      "description": "Dal 250g, Oil 1L",
+      "amount": 40,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "Anitha",
+      "description": "Tea 1kg",
+      "amount": 850,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-14",
+      "customer": "Sai Kirana",
+      "description": "Soap 5kg, Dal 250g",
+      "amount": 310,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-14",
+      "customer": "Sunita Sharma",
+      "description": "Oil 1kg, Milk 1L",
+      "amount": 1310,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "Farida Begum",
+      "description": "Oil 2kg, Salt 1L",
+      "amount": 440,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "Gopal",
+      "description": "Soap 1L, Oil 250g",
+      "amount": 660,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "Raju Anna",
+      "description": "Soap 1L",
+      "amount": 360,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-17",
+      "customer": "Venkat Rao",
+      "description": "Salt 250g, Oil 5kg",
+      "amount": 1240,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-19",
+      "customer": "Meena",
+      "description": "Soap 250g, Atta 5kg",
+      "amount": 1010,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-20",
+      "customer": "Meena",
+      "description": "Cash received",
+      "amount": 100,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-20",
+      "customer": "Sai Kirana",
+      "description": "Cash received",
+      "amount": 310,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-20",
+      "customer": "Farida Begum",
+      "description": "Tea 250g",
+      "amount": 330,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-22",
+      "customer": "Padma",
+      "description": "Sugar 1kg, Atta 2kg",
+      "amount": 620,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dukaan Saathi — दुकान साथी</title>
+<style>
+  :root { --green: #1d5c38; --green-dark: #14452a; --amber: #b97a0c;
+         --paper: #f7f3ea; --ink: #23211b; --card: #ffffff; --line: #e2d9c6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Nirmala UI", "Mangal", system-ui, sans-serif;
+         background: var(--paper); color: var(--ink); font-size: 17px; }
+  header { background: var(--green); color: #fff; padding: 14px 16px; }
+  header h1 { margin: 0; font-size: 22px; }
+  header p { margin: 2px 0 0; font-size: 14px; opacity: .9; }
+  nav { display: flex; background: var(--green-dark); }
+  nav button { flex: 1; padding: 13px 4px; border: 0; background: transparent;
+               color: #dcefe2; font-size: 16px; font-weight: 600; cursor: pointer; }
+  nav button[aria-selected="true"] { background: var(--paper); color: var(--green-dark);
+               border-radius: 10px 10px 0 0; }
+  main { padding: 14px 14px 40px; max-width: 640px; margin: 0 auto; }
+  section[hidden] { display: none; }
+  .card { background: var(--card); border: 1px solid var(--line);
+          border-radius: 10px; padding: 14px; margin-bottom: 12px; }
+  .big { width: 100%; padding: 15px; font-size: 18px; font-weight: 700;
+         border: 0; border-radius: 10px; cursor: pointer; margin-top: 10px; }
+  .go { background: var(--green); color: #fff; }
+  .warn { background: var(--amber); color: #fff; }
+  .big:disabled { opacity: .5; }
+  #preview { max-width: 100%; border-radius: 8px; margin-top: 10px; display: none; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { border-bottom: 1px solid var(--line); padding: 8px 4px; text-align: left; }
+  td input, td select { width: 100%; font-size: 15px; padding: 6px; }
+  .row { display: flex; gap: 8px; }
+  .row input[type="text"] { flex: 1; font-size: 17px; padding: 12px; border: 1px solid var(--line); border-radius: 10px; }
+  #micBtn { font-size: 22px; padding: 8px 16px; border-radius: 10px; border: 1px solid var(--line); background: #fff; cursor: pointer; }
+  #micBtn.live { background: #c0392b; color: #fff; }
+  #answer { white-space: pre-wrap; background: #eef6f0; border-radius: 8px; padding: 12px; margin-top: 10px; min-height: 60px; }
+  .bal { display: flex; justify-content: space-between; padding: 9px 2px; border-bottom: 1px solid var(--line); }
+  .amt { font-weight: 700; color: var(--green-dark); }
+  .draft { border: 1px dashed var(--amber); border-radius: 8px; padding: 10px; margin: 8px 0; }
+  .draft button { margin-top: 6px; padding: 10px 18px; font-size: 16px; font-weight: 700;
+                  background: var(--green); color: #fff; border: 0; border-radius: 8px; }
+  .hint { font-size: 14px; color: #6b6455; }
+  .err { color: #a93226; font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Dukaan Saathi · दुकान साथी · దుకాన్ సాథీ</h1>
+  <p data-i18n="subtitle">Photo → confirm → hisaab. Kuch bhi bina approval save nahi hota.</p>
+</header>
+<nav role="tablist">
+  <button id="t1" aria-selected="true" data-i18n="tab1">📷 Bahi Photo</button>
+  <button id="t2" aria-selected="false" data-i18n="tab2">🎤 Sawal</button>
+  <button id="t3" aria-selected="false" data-i18n="tab3">📒 Hisaab</button>
+</nav>
+<main>
+  <section id="s1">
+    <div class="card">
+      <label><b data-i18n="photo_label">1. Bahi-khaate ki photo lein</b></label><br>
+      <input type="file" id="photo" accept="image/*" capture="environment" style="margin-top:8px;font-size:16px">
+      <img id="preview" alt="ledger preview">
+      <button class="big go" id="extractBtn" data-i18n="extract_btn">2. Padho (Extract)</button>
+      <p class="hint" id="exStatus"></p>
+    </div>
+    <div class="card" id="draftCard" hidden>
+      <b data-i18n="draft_title">3. Check karke sudhaarein, phir Confirm</b>
+      <table><thead><tr><th data-i18n="th_customer">Grahak</th><th data-i18n="th_desc">Vivaran</th><th>₹</th><th data-i18n="th_kind">Udhaar/Vapsi</th></tr></thead>
+      <tbody id="draftRows"></tbody></table>
+      <button class="big warn" id="commitBtn" data-i18n="commit_btn">4. Confirm &amp; Save</button>
+      <p class="hint" id="cmStatus"></p>
+    </div>
+  </section>
+  <section id="s2" hidden>
+    <div class="card">
+      <b data-i18n="ask_title">Bolo ya likho</b>
+      <p class="hint" data-i18n="ask_hint">Jaise: "sabse zyada udhaar kiska hai?" ya "500 se zyada walon ko reminder banao"</p>
+      <div class="row">
+        <input type="text" id="q" data-i18n-ph="ask_ph" placeholder="Apna sawal likhein…">
+        <button id="micBtn" title="Bolo">🎤</button>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <select id="lang" style="font-size:16px;padding:10px">
+          <option value="auto" selected>Auto</option><option value="hi">Hindi · हिंदी</option><option value="te">Telugu · తెలుగు</option><option value="en">English</option>
+        </select>
+        <button class="big go" id="askBtn" style="margin-top:0" data-i18n="ask_btn">Poocho</button>
+      </div>
+      <p class="hint" id="askStatus"></p>
+      <div id="answer">Jawab yahan aayega…</div>
+    </div>
+  </section>
+  <section id="s3" hidden>
+    <div class="card"><b data-i18n="bal_title">Udhaar Hisaab</b><div id="bals"><p class="hint">Loading…</p></div></div>
+    <div class="card"><b data-i18n="rem_title">Reminder Drafts (approval chahiye)</b><div id="rems"><p class="hint">Loading…</p></div></div>
+    <div class="card"><b data-i18n="week_title">Hafte ka Summary</b><div id="weekly"><p class="hint">Loading…</p></div></div>
+  </section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

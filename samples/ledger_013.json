@@ -1,0 +1,90 @@
+{
+  "image": "ledger_013.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "clean",
+    "seed": 42013
+  },
+  "rows": [
+    {
+      "date": "2026-10-03",
+      "customer": "లక్ష్మి",
+      "description": "పంచదార 2 కిలో",
+      "amount": 430,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "వెంకటేష్",
+      "description": "పాలు 1 లీటర్",
+      "amount": 870,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "అనిత",
+      "description": "సబ్బు 2 కిలో",
+      "amount": 520,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "కృష్ణ",
+      "description": "నూనె 2 కిలో",
+      "amount": 70,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "కృష్ణ",
+      "description": "బియ్యం 1 కిలో",
+      "amount": 1170,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "పద్మ",
+      "description": "పప్పు 1 కిలో + బియ్యం 1 కిలో",
+      "amount": 290,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "లక్ష్మి",
+      "description": "పప్పు 2 కిలో + బియ్యం 2 కిలో",
+      "amount": 1100,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "లక్ష్మి",
+      "description": "పప్పు 1 లీటర్ + సబ్బు 1 లీటర్",
+      "amount": 1010,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "లక్ష్మి",
+      "description": "జమ",
+      "amount": 100,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "వెంకటేష్",
+      "description": "బియ్యం 1 లీటర్ + పప్పు 5 కిలో",
+      "amount": 1470,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "కృష్ణ",
+      "description": "పాలు 1 లీటర్ + సబ్బు 2 కిలో",
+      "amount": 1110,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

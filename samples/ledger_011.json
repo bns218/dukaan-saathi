@@ -1,0 +1,104 @@
+{
+  "image": "ledger_011.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "hi",
+    "difficulty": "normal",
+    "seed": 42011
+  },
+  "rows": [
+    {
+      "date": "2026-10-03",
+      "customer": "राजू भैया",
+      "description": "चावल 2 किलो",
+      "amount": 640,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-03",
+      "customer": "फरीदा बेगम",
+      "description": "तेल 5 किलो, साबुन 250 ग्राम",
+      "amount": 970,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-03",
+      "customer": "अशोक वर्मा",
+      "description": "आटा 1 किलो",
+      "amount": 350,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "मीना",
+      "description": "नमक 1 लीटर, चावल 250 ग्राम",
+      "amount": 890,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "फरीदा बेगम",
+      "description": "चाय 2 किलो, चावल 1 लीटर",
+      "amount": 750,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "रमेश कुमार",
+      "description": "चीनी 5 किलो, आटा 1 किलो",
+      "amount": 1250,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "गोपाल जी",
+      "description": "चीनी 250 ग्राम",
+      "amount": 1220,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "कविता शर्मा",
+      "description": "दूध 5 किलो, तेल 2 किलो",
+      "amount": 1220,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "अशोक वर्मा",
+      "description": "तेल 1 लीटर, चाय 1 किलो",
+      "amount": 1320,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "सुनीता देवी",
+      "description": "चावल 1 लीटर",
+      "amount": 360,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "कविता शर्मा",
+      "description": "चावल 2 किलो, चाय 1 लीटर",
+      "amount": 1190,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "राजू भैया",
+      "description": "नमक 2 किलो, साबुन 250 ग्राम",
+      "amount": 300,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "सुनीता देवी",
+      "description": "साबुन 5 किलो",
+      "amount": 1190,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

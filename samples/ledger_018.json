@@ -1,0 +1,119 @@
+{
+  "image": "ledger_018.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "normal",
+    "seed": 42018
+  },
+  "rows": [
+    {
+      "date": "2026-10-08",
+      "customer": "मीना",
+      "description": "दूध 5 किलो",
+      "amount": 810,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "వెంకటేష్",
+      "description": "బియ్యం 2 కిలో + పాలు 5 కిలో",
+      "amount": 1030,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "వెంకటేష్",
+      "description": "జమ",
+      "amount": 250,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "కృష్ణ",
+      "description": "పంచదార 1 కిలో",
+      "amount": 840,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "రాము",
+      "description": "నూనె 5 కిలో + పంచదార 1 లీటర్",
+      "amount": 1420,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "रमेश कुमार",
+      "description": "साबुन 5 किलो, चीनी 1 लीटर",
+      "amount": 450,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "कविता शर्मा",
+      "description": "चाय 2 किलो, नमक 1 लीटर",
+      "amount": 1340,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "కృష్ణ",
+      "description": "పప్పు 1 లీటర్",
+      "amount": 270,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-13",
+      "customer": "Padma",
+      "description": "Sugar 1kg",
+      "amount": 700,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-14",
+      "customer": "Sai Kirana",
+      "description": "Tea 2kg",
+      "amount": 1150,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "राजू भैया",
+      "description": "चीनी 2 किलो, तेल 1 लीटर",
+      "amount": 680,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "गोपाल जी",
+      "description": "चावल 1 किलो",
+      "amount": 140,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "कविता शर्मा",
+      "description": "नकद जमा",
+      "amount": 500,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "राजू भैया",
+      "description": "नकद जमा",
+      "amount": 100,
+      "kind": "payment"
+    }
+  ],
+  "ignored_rows": [
+    {
+      "date": "2026-10-11",
+      "customer": "फरीदा बेगम",
+      "description": "आटा 5 किलो",
+      "amount": 480,
+      "kind": "credit"
+    }
+  ],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

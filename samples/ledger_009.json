@@ -1,0 +1,104 @@
+{
+  "image": "ledger_009.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "clean",
+    "seed": 42009
+  },
+  "rows": [
+    {
+      "date": "2026-10-03",
+      "customer": "मीना",
+      "description": "तेल 250 ग्राम",
+      "amount": 140,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-03",
+      "customer": "अशोक वर्मा",
+      "description": "साबुन 5 किलो",
+      "amount": 1160,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "లక్ష్మి",
+      "description": "బియ్యం 2 కిలో",
+      "amount": 220,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "मीना",
+      "description": "चीनी 2 किलो",
+      "amount": 1470,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "Ramesh Kumar",
+      "description": "Rice 1L, Tea 2kg",
+      "amount": 200,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "गोपाल जी",
+      "description": "चाय 1 लीटर",
+      "amount": 690,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "Gopal",
+      "description": "Sugar 1kg, Tea 250g",
+      "amount": 230,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "अशोक वर्मा",
+      "description": "दूध 1 लीटर, चाय 1 लीटर",
+      "amount": 940,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "Padma",
+      "description": "Soap 2kg, Milk 1kg",
+      "amount": 430,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "रमेश कुमार",
+      "description": "नमक 2 किलो, दाल 1 किलो",
+      "amount": 1300,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "Meena",
+      "description": "Rice 250g",
+      "amount": 300,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "Sai Kirana",
+      "description": "Salt 1L",
+      "amount": 90,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "Lakshmi Devi",
+      "description": "Soap 5kg, Rice 2kg",
+      "amount": 840,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

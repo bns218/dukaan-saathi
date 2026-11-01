@@ -1,0 +1,90 @@
+{
+  "image": "ledger_001.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "clean",
+    "seed": 42001
+  },
+  "rows": [
+    {
+      "date": "2026-10-03",
+      "customer": "కృష్ణ",
+      "description": "నూనె 2 కిలో + పాలు 2 కిలో",
+      "amount": 1330,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "పద్మ",
+      "description": "బియ్యం 1 కిలో + పంచదార 5 కిలో",
+      "amount": 400,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "పద్మ",
+      "description": "పాలు 5 కిలో",
+      "amount": 480,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "కృష్ణ",
+      "description": "పాలు 2 కిలో",
+      "amount": 1070,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "లక్ష్మి",
+      "description": "పప్పు 2 కిలో",
+      "amount": 220,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "పద్మ",
+      "description": "జమ",
+      "amount": 500,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "అనిత",
+      "description": "పంచదార 1 లీటర్",
+      "amount": 60,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "కృష్ణ",
+      "description": "జమ",
+      "amount": 2400,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "లక్ష్మి",
+      "description": "పప్పు 1 కిలో",
+      "amount": 1410,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "కృష్ణ",
+      "description": "పప్పు 1 కిలో",
+      "amount": 850,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "కృష్ణ",
+      "description": "నూనె 2 కిలో",
+      "amount": 760,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

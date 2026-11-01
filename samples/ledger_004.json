@@ -1,0 +1,111 @@
+{
+  "image": "ledger_004.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "en",
+    "difficulty": "hard",
+    "seed": 42004
+  },
+  "rows": [
+    {
+      "date": "2026-10-05",
+      "customer": "Krishna Murthy",
+      "description": "Tea 5kg",
+      "amount": 1230,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "Suresh Babu",
+      "description": "Dal 1kg",
+      "amount": 40,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "Venkat Rao",
+      "description": "Tea 250g, Sugar 2kg",
+      "amount": 1190,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "Sunita Sharma",
+      "description": "Rice 1kg",
+      "amount": 370,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "Gopal",
+      "description": "Atta 5kg",
+      "amount": 610,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "Meena",
+      "description": "Soap 5kg, Tea 2kg",
+      "amount": 850,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "Lakshmi Devi",
+      "description": "Salt 250g",
+      "amount": 420,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "Krishna Murthy",
+      "description": "Cash received",
+      "amount": 200,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "Sunita Sharma",
+      "description": "Cash received",
+      "amount": 370,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "Lakshmi Devi",
+      "description": "Salt 2kg",
+      "amount": 580,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "Venkat Rao",
+      "description": "Milk 2kg, Sugar 250g",
+      "amount": 760,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "Padma",
+      "description": "Tea 5kg, Rice 5kg",
+      "amount": 330,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "Meena",
+      "description": "Dal 1kg, Soap 1L",
+      "amount": 1440,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-14",
+      "customer": "Raju Anna",
+      "description": "Rice 1L, Milk 5kg",
+      "amount": 440,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

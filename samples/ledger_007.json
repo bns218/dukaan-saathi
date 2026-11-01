@@ -1,0 +1,91 @@
+{
+  "image": "ledger_007.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "normal",
+    "seed": 42007
+  },
+  "rows": [
+    {
+      "date": "2026-10-07",
+      "customer": "అనిత",
+      "description": "నూనె 1 కిలో",
+      "amount": 690,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "లక్ష్మి",
+      "description": "పప్పు 2 కిలో",
+      "amount": 760,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "రాము",
+      "description": "సబ్బు 1 లీటర్",
+      "amount": 660,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "సురేష్",
+      "description": "నూనె 1 లీటర్",
+      "amount": 620,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "పద్మ",
+      "description": "పప్పు 2 కిలో + నూనె 2 కిలో",
+      "amount": 590,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "వెంకటేష్",
+      "description": "పాలు 1 కిలో",
+      "amount": 450,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "సురేష్",
+      "description": "బియ్యం 1 లీటర్ + సబ్బు 2 కిలో",
+      "amount": 110,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "కృష్ణ",
+      "description": "పప్పు 2 కిలో",
+      "amount": 650,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "రాము",
+      "description": "జమ",
+      "amount": 250,
+      "kind": "payment"
+    }
+  ],
+  "ignored_rows": [
+    {
+      "date": "2026-10-05",
+      "customer": "కృష్ణ",
+      "description": "పప్పు 1 కిలో + సబ్బు 5 కిలో",
+      "amount": 590,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "పద్మ",
+      "description": "బియ్యం 5 కిలో",
+      "amount": 780,
+      "kind": "credit"
+    }
+  ],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

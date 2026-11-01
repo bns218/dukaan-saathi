@@ -1,0 +1,91 @@
+{
+  "image": "ledger_003.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "normal",
+    "seed": 42003
+  },
+  "rows": [
+    {
+      "date": "2026-10-09",
+      "customer": "పద్మ",
+      "description": "సబ్బు 1 లీటర్",
+      "amount": 1150,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "సురేష్",
+      "description": "పంచదార 2 కిలో",
+      "amount": 150,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "అనిత",
+      "description": "పాలు 2 కిలో",
+      "amount": 1230,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-13",
+      "customer": "సురేష్",
+      "description": "బియ్యం 1 కిలో + సబ్బు 1 లీటర్",
+      "amount": 1120,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "సురేష్",
+      "description": "సబ్బు 1 కిలో + పాలు 2 కిలో",
+      "amount": 1280,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-17",
+      "customer": "కృష్ణ",
+      "description": "బియ్యం 1 కిలో",
+      "amount": 860,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-17",
+      "customer": "పద్మ",
+      "description": "జమ",
+      "amount": 250,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-19",
+      "customer": "రాము",
+      "description": "సబ్బు 2 కిలో",
+      "amount": 680,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-20",
+      "customer": "అనిత",
+      "description": "బియ్యం 5 కిలో",
+      "amount": 1410,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-22",
+      "customer": "సురేష్",
+      "description": "జమ",
+      "amount": 250,
+      "kind": "payment"
+    }
+  ],
+  "ignored_rows": [
+    {
+      "date": "2026-10-20",
+      "customer": "అనిత",
+      "description": "పంచదార 1 కిలో + సబ్బు 1 లీటర్",
+      "amount": 740,
+      "kind": "credit"
+    }
+  ],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

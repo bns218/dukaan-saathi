@@ -1,0 +1,97 @@
+{
+  "image": "ledger_010.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "normal",
+    "seed": 42010
+  },
+  "rows": [
+    {
+      "date": "2026-10-02",
+      "customer": "కృష్ణ",
+      "description": "బియ్యం 1 కిలో",
+      "amount": 740,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-03",
+      "customer": "Venkat Rao",
+      "description": "Oil 1L, Atta 2kg",
+      "amount": 910,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "లక్ష్మి",
+      "description": "పప్పు 2 కిలో",
+      "amount": 250,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "फरीदा बेगम",
+      "description": "चीनी 5 किलो, तेल 250 ग्राम",
+      "amount": 390,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "Anitha",
+      "description": "Oil 2kg, Dal 1kg",
+      "amount": 280,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "Sunita Sharma",
+      "description": "Sugar 1kg, Atta 250g",
+      "amount": 1260,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "కృష్ణ",
+      "description": "జమ",
+      "amount": 740,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "सुनीता देवी",
+      "description": "दाल 2 किलो, चावल 2 किलो",
+      "amount": 660,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "Padma",
+      "description": "Sugar 5kg, Rice 1kg",
+      "amount": 100,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "सुनीता देवी",
+      "description": "जमा",
+      "amount": 660,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "फरीदा बेगम",
+      "description": "नकद जमा",
+      "amount": 390,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "రాము",
+      "description": "సబ్బు 5 కిలో",
+      "amount": 200,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

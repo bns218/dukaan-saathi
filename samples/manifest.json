@@ -1,0 +1,162 @@
+[
+  {
+    "image": "ledger_001.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "clean",
+    "seed": 42001,
+    "rows": 11
+  },
+  {
+    "image": "ledger_002.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "normal",
+    "seed": 42002,
+    "rows": 13
+  },
+  {
+    "image": "ledger_003.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "normal",
+    "seed": 42003,
+    "rows": 10
+  },
+  {
+    "image": "ledger_004.jpg",
+    "month": "2026-10",
+    "language": "en",
+    "difficulty": "hard",
+    "seed": 42004,
+    "rows": 14
+  },
+  {
+    "image": "ledger_005.jpg",
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "clean",
+    "seed": 42005,
+    "rows": 11
+  },
+  {
+    "image": "ledger_006.jpg",
+    "month": "2026-10",
+    "language": "en",
+    "difficulty": "normal",
+    "seed": 42006,
+    "rows": 15
+  },
+  {
+    "image": "ledger_007.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "normal",
+    "seed": 42007,
+    "rows": 9
+  },
+  {
+    "image": "ledger_008.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "hard",
+    "seed": 42008,
+    "rows": 13
+  },
+  {
+    "image": "ledger_009.jpg",
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "clean",
+    "seed": 42009,
+    "rows": 13
+  },
+  {
+    "image": "ledger_010.jpg",
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "normal",
+    "seed": 42010,
+    "rows": 12
+  },
+  {
+    "image": "ledger_011.jpg",
+    "month": "2026-10",
+    "language": "hi",
+    "difficulty": "normal",
+    "seed": 42011,
+    "rows": 13
+  },
+  {
+    "image": "ledger_012.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "hard",
+    "seed": 42012,
+    "rows": 12
+  },
+  {
+    "image": "ledger_013.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "clean",
+    "seed": 42013,
+    "rows": 11
+  },
+  {
+    "image": "ledger_014.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "normal",
+    "seed": 42014,
+    "rows": 14
+  },
+  {
+    "image": "ledger_015.jpg",
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "normal",
+    "seed": 42015,
+    "rows": 13
+  },
+  {
+    "image": "ledger_016.jpg",
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "hard",
+    "seed": 42016,
+    "rows": 11
+  },
+  {
+    "image": "ledger_017.jpg",
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "clean",
+    "seed": 42017,
+    "rows": 12
+  },
+  {
+    "image": "ledger_018.jpg",
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "normal",
+    "seed": 42018,
+    "rows": 14
+  },
+  {
+    "image": "ledger_019.jpg",
+    "month": "2026-10",
+    "language": "en",
+    "difficulty": "normal",
+    "seed": 42019,
+    "rows": 15
+  },
+  {
+    "image": "ledger_020.jpg",
+    "month": "2026-10",
+    "language": "en",
+    "difficulty": "hard",
+    "seed": 42020,
+    "rows": 12
+  }
+]

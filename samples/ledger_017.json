@@ -1,0 +1,97 @@
+{
+  "image": "ledger_017.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "clean",
+    "seed": 42017
+  },
+  "rows": [
+    {
+      "date": "2026-10-08",
+      "customer": "లక్ష్మి",
+      "description": "పాలు 1 లీటర్",
+      "amount": 220,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "వెంకటేష్",
+      "description": "పప్పు 1 లీటర్",
+      "amount": 1480,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "రాము",
+      "description": "పాలు 2 కిలో",
+      "amount": 1210,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "కృష్ణ",
+      "description": "పప్పు 5 కిలో + బియ్యం 2 కిలో",
+      "amount": 1440,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "పద్మ",
+      "description": "పప్పు 1 కిలో",
+      "amount": 210,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "రాము",
+      "description": "సబ్బు 1 లీటర్ + నూనె 1 కిలో",
+      "amount": 1190,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "రాము",
+      "description": "పంచదార 2 కిలో + సబ్బు 5 కిలో",
+      "amount": 640,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-13",
+      "customer": "వెంకటేష్",
+      "description": "సబ్బు 1 కిలో + పప్పు 2 కిలో",
+      "amount": 300,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-14",
+      "customer": "అనిత",
+      "description": "నూనె 5 కిలో",
+      "amount": 1000,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "అనిత",
+      "description": "జమ",
+      "amount": 200,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-17",
+      "customer": "వెంకటేష్",
+      "description": "నూనె 2 కిలో",
+      "amount": 410,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-18",
+      "customer": "కృష్ణ",
+      "description": "సబ్బు 2 కిలో",
+      "amount": 360,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

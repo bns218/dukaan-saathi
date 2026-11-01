@@ -1,0 +1,104 @@
+{
+  "image": "ledger_002.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "normal",
+    "seed": 42002
+  },
+  "rows": [
+    {
+      "date": "2026-10-09",
+      "customer": "వెంకటేష్",
+      "description": "పాలు 2 కిలో + బియ్యం 1 కిలో",
+      "amount": 1330,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "పద్మ",
+      "description": "సబ్బు 2 కిలో",
+      "amount": 360,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "కృష్ణ",
+      "description": "నూనె 5 కిలో",
+      "amount": 650,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "కృష్ణ",
+      "description": "పంచదార 5 కిలో + సబ్బు 1 కిలో",
+      "amount": 1380,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "లక్ష్మి",
+      "description": "పంచదార 5 కిలో",
+      "amount": 1440,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "వెంకటేష్",
+      "description": "సబ్బు 2 కిలో",
+      "amount": 1010,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-13",
+      "customer": "వెంకటేష్",
+      "description": "జమ",
+      "amount": 500,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "లక్ష్మి",
+      "description": "జమ",
+      "amount": 100,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-16",
+      "customer": "రాము",
+      "description": "నూనె 1 లీటర్",
+      "amount": 730,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-17",
+      "customer": "రాము",
+      "description": "నూనె 1 కిలో",
+      "amount": 70,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-18",
+      "customer": "రాము",
+      "description": "జమ",
+      "amount": 100,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-18",
+      "customer": "లక్ష్మి",
+      "description": "జమ",
+      "amount": 200,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-18",
+      "customer": "రాము",
+      "description": "జమ",
+      "amount": 700,
+      "kind": "payment"
+    }
+  ],
+  "ignored_rows": [],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

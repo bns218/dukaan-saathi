@@ -1,0 +1,105 @@
+{
+  "image": "ledger_020.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "en",
+    "difficulty": "hard",
+    "seed": 42020
+  },
+  "rows": [
+    {
+      "date": "2026-10-09",
+      "customer": "Farida Begum",
+      "description": "Oil 1L, Soap 250g",
+      "amount": 200,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "Venkat Rao",
+      "description": "Milk 250g",
+      "amount": 1160,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "Raju Anna",
+      "description": "Sugar 1kg",
+      "amount": 1230,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "Mohammed Irfan",
+      "description": "Dal 1kg",
+      "amount": 1500,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "Mohammed Irfan",
+      "description": "Milk 1L, Sugar 2kg",
+      "amount": 920,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "Padma",
+      "description": "Soap 1kg, Atta 1L",
+      "amount": 510,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-12",
+      "customer": "Venkat Rao",
+      "description": "Milk 5kg, Dal 1L",
+      "amount": 110,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-13",
+      "customer": "Mohammed Irfan",
+      "description": "Oil 2kg, Atta 5kg",
+      "amount": 940,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "Ramesh Kumar",
+      "description": "Sugar 1L, Dal 5kg",
+      "amount": 600,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "Ramesh Kumar",
+      "description": "Milk 5kg",
+      "amount": 590,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "Sunita Sharma",
+      "description": "Milk 2kg",
+      "amount": 1020,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-15",
+      "customer": "Anitha",
+      "description": "Salt 250g, Tea 5kg",
+      "amount": 1500,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [
+    {
+      "date": "2026-10-09",
+      "customer": "Lakshmi Devi",
+      "description": "Oil 250g, Salt 1L",
+      "amount": 140,
+      "kind": "credit"
+    }
+  ],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

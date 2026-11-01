@@ -1,0 +1,105 @@
+{
+  "image": "ledger_005.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "mixed",
+    "difficulty": "clean",
+    "seed": 42005
+  },
+  "rows": [
+    {
+      "date": "2026-10-02",
+      "customer": "कविता शर्मा",
+      "description": "साबुन 5 किलो",
+      "amount": 220,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-03",
+      "customer": "कविता शर्मा",
+      "description": "तेल 2 किलो",
+      "amount": 520,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-04",
+      "customer": "अशोक वर्मा",
+      "description": "दूध 5 किलो, साबुन 2 किलो",
+      "amount": 440,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "राजू भैया",
+      "description": "दाल 5 किलो",
+      "amount": 980,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "Suresh Babu",
+      "description": "Rice 2kg",
+      "amount": 460,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "వెంకటేష్",
+      "description": "పాలు 5 కిలో + పంచదార 1 కిలో",
+      "amount": 1010,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "వెంకటేష్",
+      "description": "నూనె 1 కిలో + పాలు 2 కిలో",
+      "amount": 350,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "राजू भैया",
+      "description": "तेल 1 किलो",
+      "amount": 1070,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "Krishna Murthy",
+      "description": "Salt 1kg, Tea 250g",
+      "amount": 280,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "मीना",
+      "description": "दूध 1 लीटर, आटा 250 ग्राम",
+      "amount": 1020,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "सुनीता देवी",
+      "description": "साबुन 250 ग्राम",
+      "amount": 480,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [
+    {
+      "date": "2026-10-10",
+      "customer": "गोपाल जी",
+      "description": "चीनी 1 किलो",
+      "amount": 720,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-13",
+      "customer": "रमेश कुमार",
+      "description": "आटा 2 किलो",
+      "amount": 180,
+      "kind": "credit"
+    }
+  ],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}

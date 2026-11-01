@@ -1,0 +1,105 @@
+{
+  "image": "ledger_012.jpg",
+  "page": {
+    "month": "2026-10",
+    "language": "te",
+    "difficulty": "hard",
+    "seed": 42012
+  },
+  "rows": [
+    {
+      "date": "2026-10-03",
+      "customer": "సురేష్",
+      "description": "నూనె 1 కిలో + బియ్యం 5 కిలో",
+      "amount": 910,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-03",
+      "customer": "అనిత",
+      "description": "నూనె 5 కిలో",
+      "amount": 600,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "పద్మ",
+      "description": "పాలు 2 కిలో",
+      "amount": 130,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-05",
+      "customer": "రాము",
+      "description": "బియ్యం 1 లీటర్",
+      "amount": 1100,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-06",
+      "customer": "పద్మ",
+      "description": "సబ్బు 5 కిలో",
+      "amount": 270,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-07",
+      "customer": "లక్ష్మి",
+      "description": "నూనె 5 కిలో + పప్పు 2 కిలో",
+      "amount": 50,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-08",
+      "customer": "రాము",
+      "description": "జమ",
+      "amount": 200,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-09",
+      "customer": "కృష్ణ",
+      "description": "పప్పు 1 లీటర్ + పంచదార 1 లీటర్",
+      "amount": 1410,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-10",
+      "customer": "వెంకటేష్",
+      "description": "బియ్యం 1 కిలో",
+      "amount": 920,
+      "kind": "credit"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "పద్మ",
+      "description": "జమ",
+      "amount": 200,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-11",
+      "customer": "రాము",
+      "description": "జమ",
+      "amount": 250,
+      "kind": "payment"
+    },
+    {
+      "date": "2026-10-13",
+      "customer": "వెంకటేష్",
+      "description": "బియ్యం 1 కిలో",
+      "amount": 1250,
+      "kind": "credit"
+    }
+  ],
+  "ignored_rows": [
+    {
+      "date": "2026-10-04",
+      "customer": "వెంకటేష్",
+      "description": "నూనె 2 కిలో",
+      "amount": 1400,
+      "kind": "credit"
+    }
+  ],
+  "notes": "Rows in 'ignored_rows' are crossed out on the page and should not be extracted."
+}
