@@ -102,8 +102,9 @@ def run_agent(conn: sqlite3.Connection, user_text: str,
     tool_defs = [{"type": "function", **s} for s in tools.TOOL_SPECS]
     prev: str | None = None
     calls_log: list[dict] = []
+    payload: list[dict] = messages
     for _ in range(MAX_ITERS):
-        turn = meta_client.agent_turn(messages, tool_defs, prev)
+        turn = meta_client.agent_turn(payload, tool_defs, prev)
         prev = turn.get("response_id") or prev
         if not turn["tool_calls"]:
             db.audit(conn, "agent", "answer",
@@ -111,6 +112,7 @@ def run_agent(conn: sqlite3.Connection, user_text: str,
             conn.commit()
             return {"answer": turn["text"], "tool_calls": calls_log,
                     "language": reply_lang}
+        outputs: list[dict] = []
         for tc in turn["tool_calls"]:
             args: dict = {}
             try:
@@ -119,7 +121,9 @@ def run_agent(conn: sqlite3.Connection, user_text: str,
             except Exception as e:  # noqa: BLE001 - report tool errors to model
                 result = {"error": str(e)}
             calls_log.append({"tool": tc["name"], "args": args, "result": result})
-            messages.append({"role": "tool", "call_id": tc.get("call_id", ""),
-                             "content": json.dumps(result, ensure_ascii=False)})
+            outputs.append({"type": "function_call_output",
+                            "call_id": tc.get("call_id", ""),
+                            "output": json.dumps(result, ensure_ascii=False)})
+        payload = outputs
     return {"answer": "Kaam adhura reh gaya (6 steps se zyada). Kripya chhota sawal poochhein.",
             "tool_calls": calls_log, "language": reply_lang}
